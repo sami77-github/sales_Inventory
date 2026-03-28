@@ -1,5 +1,7 @@
 package com.client.Sales_Inventory.ObjectRepository;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -43,6 +45,14 @@ public class RetailerHomePage {
 	
 	@FindBy (xpath="//a[text()='Details']")
 	private WebElement details1;
+	
+	@FindBy(xpath="//table[@class='table_displayData']/tbody/tr/td[2]")
+	private List<WebElement> productList1;
+	
+
+	public List<WebElement> getProductList1() {
+		return productList1;
+	}
 
 	public WebElement getDetails1() {
 		try {

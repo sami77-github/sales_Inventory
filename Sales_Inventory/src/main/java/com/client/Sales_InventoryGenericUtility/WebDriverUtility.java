@@ -32,16 +32,10 @@ public class WebDriverUtility {
 		Actions act=new Actions(driver);
 		act.scrollByAmount(x, y).build().perform();
 	}
-	
-	
-	
-	
 	public void waitforpageload(WebDriver driver) {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(15));
-		wait.until(ExpectedConditions.alertIsPresent());
-		
+		wait.until(ExpectedConditions.alertIsPresent());	
 	}
-	
 	public void handleAlert(WebDriver driver) {
 		try {
 		waitforpageload(driver);

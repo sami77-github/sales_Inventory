@@ -2,6 +2,7 @@ package com.client.Sales_Inventory.ObjectRepository;
 
 import java.util.List;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -54,7 +55,24 @@ public class AddProductPage {
 	@FindBy(xpath="//table[@class='table_displayData']/tbody/tr/td[3]")
 	private List<WebElement> productList;
 	
+	@FindBy(xpath="//select[@id='product:unit']/option")
+	private List<WebElement> unitList;
 	
+	@FindBy(xpath="//input[@value='Delete']")
+	private WebElement deleteproduct;
+	
+	
+	@FindBy(xpath="//input[@value='Update Product']")
+	private WebElement updateprod;
+	
+	
+	
+	public WebElement getUpdateprod() {
+		return updateprod;
+	}
+	public WebElement getDeleteproduct() {
+		return deleteproduct;
+	}
 	public List<WebElement> getProductList() {
 		return productList;
 	}
@@ -118,6 +136,19 @@ public class AddProductPage {
 	
 	
 	
+	public List<WebElement> getUnitList() {
+		return unitList;
+	}
+	
+	public WebElement anyProduct(String prodName) {
+		
+		return driver.findElement(By.xpath("//table[@class='table_displayData']//td[text()=' "+prodName+" ']/preceding-sibling::td/input"));	
+	}
+	
+	public WebElement editProduct(String prodName) {
+		return driver.findElement(By.xpath("//table[@class='table_displayData']//td[text()=' "+prodName+" ']/following-sibling::td/a"));
+		
+	}
 	
 	
 	

@@ -3,59 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-<<<<<<< HEAD
-      <class name="com.client.SalesInventory.Retailer.RetailerProfile">
+      <class name="com.client.SalesInventory.Addproduct.AddProductTest">
         <methods>
-=======
-      <class name="com.client.SalesInventory.verifyAddManufacturingFunc.Verify_AddManufacturingFunc">
-        <methods>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-          <include name="verifyPostOrderInAdminOrders"/>
->>>>>>> refs/remotes/upstream/master
->>>>>>> refs/remotes/Upstream/master
->>>>>>> master
-          <include name="beforeSuitConfigMethod"/>
->>>>>>> refs/remotes/origin/master
           <include name="beforeClassConfigMethod"/>
-<<<<<<< HEAD
-          <include name="verifyPostOrderInManufacturer"/>
-          <include name="configBeforeMethod"/>
-          <include name="configAfterMethod"/>
-=======
-<<<<<<< HEAD
           <include name="beforeSuitConfigMethod"/>
-=======
-<<<<<<< HEAD
-          <include name="verifyTotalPriceInNewOrder"/>
-=======
-<<<<<<< HEAD
-          <include name="checkAddedProduct"/>
->>>>>>> refs/remotes/origin/master
+          <include name="verifyEditProduct"/>
           <include name="configBM"/>
           <include name="configAM"/>
-<<<<<<< HEAD
-=======
-=======
->>>>>>> refs/remotes/Upstream/master
-          <include name="configBeforeMethod"/>
-          <include name="configAfterMethod"/>
->>>>>>> refs/remotes/upstream/master
->>>>>>> refs/remotes/origin/master
->>>>>>> master
           <include name="afterClassConfigMethod"/>
           <include name="afterSuiteConfigMethod"/>
-          <include name="verifyAddmanufacturing"/>
         </methods>
-<<<<<<< HEAD
-      </class> <!-- com.client.SalesInventory.Retailer.RetailerProfile -->
-=======
-      </class> <!-- com.client.SalesInventory.verifyAddManufacturingFunc.Verify_AddManufacturingFunc -->
->>>>>>> master
+      </class> <!-- com.client.SalesInventory.Addproduct.AddProductTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

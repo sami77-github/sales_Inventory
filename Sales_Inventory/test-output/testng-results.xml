@@ -1,243 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<testng-results ignored="4" total="5" passed="1" failed="0" skipped="0">
+<testng-results ignored="11" total="12" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-15T18:09:21 IST" name="Default suite" finished-at="2025-10-15T18:09:29 IST" duration-ms="8270">
+  <suite started-at="2025-11-03T17:50:20 IST" name="Default suite" finished-at="2025-11-03T17:50:43 IST" duration-ms="22686">
     <groups>
-    </groups>
-    <test started-at="2025-10-15T18:09:21 IST" name="Default test" finished-at="2025-10-15T18:09:29 IST" duration-ms="8270">
-      <class name="com.client.SalesInventory.Retailer.RetailerProfile">
-        <test-method is-config="true" signature="beforeSuitConfigMethod()[pri:0, instance:com.client.SalesInventory.Retailer.RetailerProfile@3857f613]" started-at="2025-10-15T18:09:21 IST" name="beforeSuitConfigMethod" finished-at="2025-10-15T18:09:21 IST" duration-ms="12" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuitConfigMethod -->
-        <test-method is-config="true" signature="beforeClassConfigMethod(org.testng.xml.XmlTest)[pri:0, instance:com.client.SalesInventory.Retailer.RetailerProfile@3857f613]" started-at="2025-10-15T18:09:21 IST" name="beforeClassConfigMethod" finished-at="2025-10-15T18:09:23 IST" duration-ms="1632" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.xml.XmlTest@c4190eac]]>
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
-=======
-<<<<<<< HEAD
-<testng-results ignored="4" total="5" passed="1" failed="0" skipped="0">
-=======
->>>>>>> refs/remotes/origin/master
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
-<<<<<<< HEAD
-=======
->>>>>>> refs/remotes/upstream/master
->>>>>>> refs/remotes/Upstream/master
->>>>>>> refs/remotes/origin/master
-  <reporter-output>
-  </reporter-output>
-<<<<<<< HEAD
-  <suite started-at="2025-10-15T18:26:50 IST" name="Default suite" finished-at="2025-10-15T18:26:56 IST" duration-ms="5681">
-=======
-<<<<<<< HEAD
-  <suite started-at="2025-10-14T18:03:50 IST" name="Default suite" finished-at="2025-10-14T18:03:59 IST" duration-ms="8887">
-=======
-<<<<<<< HEAD
-  <suite started-at="2025-10-14T12:04:33 IST" name="Default suite" finished-at="2025-10-14T12:04:46 IST" duration-ms="13568">
-=======
-  <suite started-at="2025-10-14T10:29:48 IST" name="Default suite" finished-at="2025-10-14T10:29:57 IST" duration-ms="8722">
->>>>>>> refs/remotes/upstream/master
->>>>>>> refs/remotes/Upstream/master
->>>>>>> refs/remotes/origin/master
-    <groups>
-<<<<<<< HEAD
-      <group name="smoke">
-        <method signature="Verify_AddManufacturingFunc.verifyAddmanufacturing()[pri:0, instance:com.client.SalesInventory.verifyAddManufacturingFunc.Verify_AddManufacturingFunc@7eac9008]" name="verifyAddmanufacturing" class="com.client.SalesInventory.verifyAddManufacturingFunc.Verify_AddManufacturingFunc"/>
-      </group> <!-- smoke -->
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-      <group name="regression">
-        <method signature="AddProductTest.checkAddedProduct()[pri:0, instance:com.client.SalesInventory.Addproduct.AddProductTest@302552ec]" name="checkAddedProduct" class="com.client.SalesInventory.Addproduct.AddProductTest"/>
-      </group> <!-- regression -->
-=======
       <group name="system">
-        <method signature="RetailerProfile.verifyPostOrderInAdminOrders()[pri:0, instance:com.client.SalesInventory.Retailer.RetailerProfile@6ed3ccb2]" name="verifyPostOrderInAdminOrders" class="com.client.SalesInventory.Retailer.RetailerProfile"/>
+        <method signature="AddProductTest.displayProductInManufacturerLogin()[pri:0, instance:com.client.SalesInventory.Addproduct.AddProductTest@40005471]" name="displayProductInManufacturerLogin" class="com.client.SalesInventory.Addproduct.AddProductTest"/>
       </group> <!-- system -->
->>>>>>> refs/remotes/upstream/master
->>>>>>> refs/remotes/Upstream/master
->>>>>>> refs/remotes/origin/master
     </groups>
-<<<<<<< HEAD
-    <test started-at="2025-10-15T18:26:50 IST" name="Default test" finished-at="2025-10-15T18:26:56 IST" duration-ms="5681">
-      <class name="com.client.SalesInventory.verifyAddManufacturingFunc.Verify_AddManufacturingFunc">
-        <test-method is-config="true" signature="beforeSuitConfigMethod()[pri:0, instance:com.client.SalesInventory.verifyAddManufacturingFunc.Verify_AddManufacturingFunc@7eac9008]" started-at="2025-10-15T18:26:50 IST" name="beforeSuitConfigMethod" finished-at="2025-10-15T18:26:50 IST" duration-ms="20" status="PASS">
-=======
-<<<<<<< HEAD
-    <test started-at="2025-10-14T18:03:50 IST" name="Default test" finished-at="2025-10-14T18:03:59 IST" duration-ms="8887">
-=======
-<<<<<<< HEAD
-    <test started-at="2025-10-14T12:04:33 IST" name="Default test" finished-at="2025-10-14T12:04:46 IST" duration-ms="13568">
+    <test started-at="2025-11-03T17:50:20 IST" name="Default test" finished-at="2025-11-03T17:50:43 IST" duration-ms="22686">
       <class name="com.client.SalesInventory.Addproduct.AddProductTest">
-        <test-method is-config="true" signature="beforeSuitConfigMethod()[pri:0, instance:com.client.SalesInventory.Addproduct.AddProductTest@302552ec]" started-at="2025-10-14T12:04:33 IST" name="beforeSuitConfigMethod" finished-at="2025-10-14T12:04:33 IST" duration-ms="14" status="PASS">
-=======
-    <test started-at="2025-10-14T10:29:48 IST" name="Default test" finished-at="2025-10-14T10:29:57 IST" duration-ms="8722">
->>>>>>> refs/remotes/Upstream/master
-      <class name="com.client.SalesInventory.Retailer.RetailerProfile">
-<<<<<<< HEAD
-        <test-method is-config="true" signature="beforeSuitConfigMethod()[pri:0, instance:com.client.SalesInventory.Retailer.RetailerProfile@489115ef]" started-at="2025-10-14T18:03:50 IST" name="beforeSuitConfigMethod" finished-at="2025-10-14T18:03:50 IST" duration-ms="19" status="PASS">
-=======
-        <test-method is-config="true" signature="beforeSuitConfigMethod()[pri:0, instance:com.client.SalesInventory.Retailer.RetailerProfile@6ed3ccb2]" started-at="2025-10-14T10:29:48 IST" name="beforeSuitConfigMethod" finished-at="2025-10-14T10:29:48 IST" duration-ms="15" status="PASS">
->>>>>>> refs/remotes/upstream/master
->>>>>>> refs/remotes/Upstream/master
->>>>>>> refs/remotes/origin/master
+        <test-method is-config="true" signature="beforeSuitConfigMethod()[pri:0, instance:com.client.SalesInventory.Addproduct.AddProductTest@40005471]" started-at="2025-11-03T17:50:20 IST" name="beforeSuitConfigMethod" finished-at="2025-11-03T17:50:20 IST" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuitConfigMethod -->
-<<<<<<< HEAD
-        <test-method is-config="true" signature="beforeClassConfigMethod(org.testng.xml.XmlTest)[pri:0, instance:com.client.SalesInventory.verifyAddManufacturingFunc.Verify_AddManufacturingFunc@7eac9008]" started-at="2025-10-15T18:26:50 IST" name="beforeClassConfigMethod" finished-at="2025-10-15T18:26:53 IST" duration-ms="3070" status="PASS">
-=======
-<<<<<<< HEAD
-        <test-method is-config="true" signature="beforeClassConfigMethod(org.testng.xml.XmlTest)[pri:0, instance:com.client.SalesInventory.Retailer.RetailerProfile@489115ef]" started-at="2025-10-14T18:03:50 IST" name="beforeClassConfigMethod" finished-at="2025-10-14T18:03:53 IST" duration-ms="2452" status="PASS">
-=======
-<<<<<<< HEAD
-        <test-method is-config="true" signature="beforeClassConfigMethod(org.testng.xml.XmlTest)[pri:0, instance:com.client.SalesInventory.Addproduct.AddProductTest@302552ec]" started-at="2025-10-14T12:04:33 IST" name="beforeClassConfigMethod" finished-at="2025-10-14T12:04:41 IST" duration-ms="7814" status="PASS">
-=======
-        <test-method is-config="true" signature="beforeClassConfigMethod(org.testng.xml.XmlTest)[pri:0, instance:com.client.SalesInventory.Retailer.RetailerProfile@6ed3ccb2]" started-at="2025-10-14T10:29:48 IST" name="beforeClassConfigMethod" finished-at="2025-10-14T10:29:51 IST" duration-ms="2886" status="PASS">
->>>>>>> refs/remotes/upstream/master
->>>>>>> refs/remotes/Upstream/master
->>>>>>> refs/remotes/origin/master
+        <test-method is-config="true" signature="beforeClassConfigMethod(org.testng.xml.XmlTest)[pri:0, instance:com.client.SalesInventory.Addproduct.AddProductTest@40005471]" started-at="2025-11-03T17:50:20 IST" name="beforeClassConfigMethod" finished-at="2025-11-03T17:50:30 IST" duration-ms="9433" status="PASS">
           <params>
             <param index="0">
               <value>
-<<<<<<< HEAD
-                <![CDATA[org.testng.xml.XmlTest@327a704f]]>
-=======
-<<<<<<< HEAD
-                <![CDATA[org.testng.xml.XmlTest@ed9d509e]]>
-=======
-<<<<<<< HEAD
-                <![CDATA[org.testng.xml.XmlTest@558c9ba6]]>
-=======
-                <![CDATA[org.testng.xml.XmlTest@40d6e986]]>
->>>>>>> refs/remotes/upstream/master
->>>>>>> refs/remotes/Upstream/master
->>>>>>> refs/remotes/origin/master
->>>>>>> master
+                <![CDATA[org.testng.xml.XmlTest@c087f7f9]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClassConfigMethod -->
-<<<<<<< HEAD
-        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:com.client.SalesInventory.Retailer.RetailerProfile@3857f613]" started-at="2025-10-15T18:09:23 IST" name="configBeforeMethod" finished-at="2025-10-15T18:09:23 IST" duration-ms="468" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBeforeMethod -->
-        <test-method signature="verifyPostOrderInManufacturer()[pri:0, instance:com.client.SalesInventory.Retailer.RetailerProfile@3857f613]" started-at="2025-10-15T18:09:23 IST" name="verifyPostOrderInManufacturer" finished-at="2025-10-15T18:09:29 IST" duration-ms="5738" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPostOrderInManufacturer -->
-        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:com.client.SalesInventory.Retailer.RetailerProfile@3857f613]" started-at="2025-10-15T18:09:29 IST" name="configAfterMethod" finished-at="2025-10-15T18:09:29 IST" duration-ms="152" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAfterMethod -->
-        <test-method is-config="true" signature="afterClassConfigMethod()[pri:0, instance:com.client.SalesInventory.Retailer.RetailerProfile@3857f613]" started-at="2025-10-15T18:09:29 IST" name="afterClassConfigMethod" finished-at="2025-10-15T18:09:29 IST" duration-ms="247" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClassConfigMethod -->
-        <test-method is-config="true" signature="afterSuiteConfigMethod()[pri:0, instance:com.client.SalesInventory.Retailer.RetailerProfile@3857f613]" started-at="2025-10-15T18:09:29 IST" name="afterSuiteConfigMethod" finished-at="2025-10-15T18:09:29 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuiteConfigMethod -->
-      </class> <!-- com.client.SalesInventory.Retailer.RetailerProfile -->
-=======
-<<<<<<< HEAD
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.client.SalesInventory.verifyAddManufacturingFunc.Verify_AddManufacturingFunc@7eac9008]" started-at="2025-10-15T18:26:53 IST" name="configBM" finished-at="2025-10-15T18:26:54 IST" duration-ms="717" status="PASS">
-=======
-<<<<<<< HEAD
-        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:com.client.SalesInventory.Retailer.RetailerProfile@489115ef]" started-at="2025-10-14T18:03:53 IST" name="configBeforeMethod" finished-at="2025-10-14T18:03:53 IST" duration-ms="588" status="PASS">
-=======
-<<<<<<< HEAD
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.client.SalesInventory.Addproduct.AddProductTest@302552ec]" started-at="2025-10-14T12:04:41 IST" name="configBM" finished-at="2025-10-14T12:04:42 IST" duration-ms="1323" status="PASS">
-=======
-        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:com.client.SalesInventory.Retailer.RetailerProfile@6ed3ccb2]" started-at="2025-10-14T10:29:51 IST" name="configBeforeMethod" finished-at="2025-10-14T10:29:52 IST" duration-ms="1026" status="PASS">
->>>>>>> refs/remotes/upstream/master
->>>>>>> refs/remotes/Upstream/master
->>>>>>> refs/remotes/origin/master
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.client.SalesInventory.Addproduct.AddProductTest@40005471]" started-at="2025-11-03T17:50:30 IST" name="configBM" finished-at="2025-11-03T17:50:31 IST" duration-ms="1056" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-<<<<<<< HEAD
-        <test-method signature="verifyAddmanufacturing()[pri:0, instance:com.client.SalesInventory.verifyAddManufacturingFunc.Verify_AddManufacturingFunc@7eac9008]" started-at="2025-10-15T18:26:54 IST" name="verifyAddmanufacturing" finished-at="2025-10-15T18:26:55 IST" duration-ms="1447" status="PASS">
-=======
-        <test-method signature="checkAddedProduct()[pri:0, instance:com.client.SalesInventory.Addproduct.AddProductTest@302552ec]" started-at="2025-10-14T12:04:42 IST" name="checkAddedProduct" finished-at="2025-10-14T12:04:46 IST" duration-ms="3668" status="PASS">
-=======
-        </test-method> <!-- configBeforeMethod -->
-<<<<<<< HEAD
-        <test-method signature="verifyTotalPriceInNewOrder()[pri:0, instance:com.client.SalesInventory.Retailer.RetailerProfile@489115ef]" started-at="2025-10-14T18:03:53 IST" name="verifyTotalPriceInNewOrder" finished-at="2025-10-14T18:03:59 IST" duration-ms="5375" status="PASS">
-=======
-        <test-method signature="verifyPostOrderInAdminOrders()[pri:0, instance:com.client.SalesInventory.Retailer.RetailerProfile@6ed3ccb2]" started-at="2025-10-14T10:29:52 IST" name="verifyPostOrderInAdminOrders" finished-at="2025-10-14T10:29:56 IST" duration-ms="3909" status="PASS">
->>>>>>> refs/remotes/upstream/master
->>>>>>> refs/remotes/Upstream/master
->>>>>>> refs/remotes/origin/master
+        <test-method signature="displayProductInManufacturerLogin()[pri:0, instance:com.client.SalesInventory.Addproduct.AddProductTest@40005471]" started-at="2025-11-03T17:50:31 IST" name="displayProductInManufacturerLogin" finished-at="2025-11-03T17:50:38 IST" duration-ms="7375" status="PASS">
           <reporter-output>
           </reporter-output>
-<<<<<<< HEAD
-        </test-method> <!-- verifyAddmanufacturing -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.client.SalesInventory.verifyAddManufacturingFunc.Verify_AddManufacturingFunc@7eac9008]" started-at="2025-10-15T18:26:55 IST" name="configAM" finished-at="2025-10-15T18:26:55 IST" duration-ms="138" status="PASS">
-=======
-<<<<<<< HEAD
-        </test-method> <!-- verifyTotalPriceInNewOrder -->
-        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:com.client.SalesInventory.Retailer.RetailerProfile@489115ef]" started-at="2025-10-14T18:03:59 IST" name="configAfterMethod" finished-at="2025-10-14T18:03:59 IST" duration-ms="144" status="PASS">
-=======
-<<<<<<< HEAD
-        </test-method> <!-- checkAddedProduct -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.client.SalesInventory.Addproduct.AddProductTest@302552ec]" started-at="2025-10-14T12:04:46 IST" name="configAM" finished-at="2025-10-14T12:04:46 IST" duration-ms="258" status="PASS">
-=======
-        </test-method> <!-- verifyPostOrderInAdminOrders -->
-        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:com.client.SalesInventory.Retailer.RetailerProfile@6ed3ccb2]" started-at="2025-10-14T10:29:56 IST" name="configAfterMethod" finished-at="2025-10-14T10:29:56 IST" duration-ms="321" status="PASS">
->>>>>>> refs/remotes/upstream/master
->>>>>>> refs/remotes/Upstream/master
->>>>>>> refs/remotes/origin/master
+        </test-method> <!-- displayProductInManufacturerLogin -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.client.SalesInventory.Addproduct.AddProductTest@40005471]" started-at="2025-11-03T17:50:38 IST" name="configAM" finished-at="2025-11-03T17:50:40 IST" duration-ms="2198" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-<<<<<<< HEAD
-        <test-method is-config="true" signature="afterClassConfigMethod()[pri:0, instance:com.client.SalesInventory.verifyAddManufacturingFunc.Verify_AddManufacturingFunc@7eac9008]" started-at="2025-10-15T18:26:55 IST" name="afterClassConfigMethod" finished-at="2025-10-15T18:26:56 IST" duration-ms="239" status="PASS">
-=======
-        <test-method is-config="true" signature="afterClassConfigMethod()[pri:0, instance:com.client.SalesInventory.Addproduct.AddProductTest@302552ec]" started-at="2025-10-14T12:04:46 IST" name="afterClassConfigMethod" finished-at="2025-10-14T12:04:46 IST" duration-ms="414" status="PASS">
-=======
-        </test-method> <!-- configAfterMethod -->
-<<<<<<< HEAD
-        <test-method is-config="true" signature="afterClassConfigMethod()[pri:0, instance:com.client.SalesInventory.Retailer.RetailerProfile@489115ef]" started-at="2025-10-14T18:03:59 IST" name="afterClassConfigMethod" finished-at="2025-10-14T18:03:59 IST" duration-ms="290" status="PASS">
-=======
-        <test-method is-config="true" signature="afterClassConfigMethod()[pri:0, instance:com.client.SalesInventory.Retailer.RetailerProfile@6ed3ccb2]" started-at="2025-10-14T10:29:56 IST" name="afterClassConfigMethod" finished-at="2025-10-14T10:29:57 IST" duration-ms="506" status="PASS">
->>>>>>> refs/remotes/upstream/master
->>>>>>> refs/remotes/Upstream/master
->>>>>>> refs/remotes/origin/master
+        <test-method is-config="true" signature="afterClassConfigMethod()[pri:0, instance:com.client.SalesInventory.Addproduct.AddProductTest@40005471]" started-at="2025-11-03T17:50:40 IST" name="afterClassConfigMethod" finished-at="2025-11-03T17:50:43 IST" duration-ms="2508" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClassConfigMethod -->
-<<<<<<< HEAD
-        <test-method is-config="true" signature="afterSuiteConfigMethod()[pri:0, instance:com.client.SalesInventory.verifyAddManufacturingFunc.Verify_AddManufacturingFunc@7eac9008]" started-at="2025-10-15T18:26:56 IST" name="afterSuiteConfigMethod" finished-at="2025-10-15T18:26:56 IST" duration-ms="1" status="PASS">
-=======
-<<<<<<< HEAD
-        <test-method is-config="true" signature="afterSuiteConfigMethod()[pri:0, instance:com.client.SalesInventory.Retailer.RetailerProfile@489115ef]" started-at="2025-10-14T18:03:59 IST" name="afterSuiteConfigMethod" finished-at="2025-10-14T18:03:59 IST" duration-ms="0" status="PASS">
-=======
-<<<<<<< HEAD
-        <test-method is-config="true" signature="afterSuiteConfigMethod()[pri:0, instance:com.client.SalesInventory.Addproduct.AddProductTest@302552ec]" started-at="2025-10-14T12:04:46 IST" name="afterSuiteConfigMethod" finished-at="2025-10-14T12:04:46 IST" duration-ms="1" status="PASS">
-=======
-        <test-method is-config="true" signature="afterSuiteConfigMethod()[pri:0, instance:com.client.SalesInventory.Retailer.RetailerProfile@6ed3ccb2]" started-at="2025-10-14T10:29:57 IST" name="afterSuiteConfigMethod" finished-at="2025-10-14T10:29:57 IST" duration-ms="2" status="PASS">
->>>>>>> refs/remotes/upstream/master
->>>>>>> refs/remotes/Upstream/master
->>>>>>> refs/remotes/origin/master
+        <test-method is-config="true" signature="afterSuiteConfigMethod()[pri:0, instance:com.client.SalesInventory.Addproduct.AddProductTest@40005471]" started-at="2025-11-03T17:50:43 IST" name="afterSuiteConfigMethod" finished-at="2025-11-03T17:50:43 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuiteConfigMethod -->
-      </class> <!-- com.client.SalesInventory.verifyAddManufacturingFunc.Verify_AddManufacturingFunc -->
->>>>>>> master
+      </class> <!-- com.client.SalesInventory.Addproduct.AddProductTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
